@@ -1,5 +1,6 @@
 // here is the commands history of my linux envirronement ( I didn't manage to retrieve the outputs )
 
+__TD1.1__
 
 __Exercise 1__
 
@@ -224,10 +225,109 @@ __4.5__
 
 47 cmatrix -u 6
 
-48  cmatrix -u 6 -C blue
+48 cmatrix -u 6 -C blue
 
 49 man cmatrix
 
 50 tmux --help
 
 51 man tmux
+
+__TD1.2__
+
+__Exercise 1__
+
+52 sudo apt update
+
+53 uname -a
+
+54 top
+
+55 nproc
+
+56 lscpu | grep -i cache
+
+57 df -h
+
+58 mount | column -t
+
+59 lsusb
+
+60 hostname
+
+__Exercise 2__
+
+61 x="piri pimpin"
+
+62 echo $x
+
+63 x+=" piri pimpon"
+
+64 echo $x
+
+65 mkdir my_programs
+
+66 cd my_programs
+
+67 echo "pilou pilou" > pilou
+
+68 bash pilou
+
+69 chmod +x pilou
+
+70 ./pilou
+
+71 echo $PATH
+
+72 export PATH=$PATH:$(pwd)
+
+73 echo $PATH
+
+74 cd ~
+
+75 pilou
+
+76 echo 'export PATH=$PATH:$(pwd)/my_programs' >> .profile
+
+77 source .profile
+
+78 pilou
+
+__Exercise 3__
+
+4 echo '#!/bin/bash' > say_hello.sh
+
+5 echo 'echo "$(date "+%Y-%m-%d %H:%M:%S") Hello" >> hellos.txt' >> say_hello.sh
+
+6 chmod +x say_hello.sh
+
+7 echo '* * * * * /home/ubuntu/linux_ex_1/say_hello.sh' | crontab -
+
+__Exercise 4__
+
+8 mkdir hash_checksum
+
+9 cd hash_checksum
+
+10 touch .sensible_addresses
+
+11 touch .sensible_passwords
+
+12 ls
+
+13 echo 'echo "Have a good day"' > gentle_script.sh
+
+14 bash gentle_script.sh
+
+15 sha256sum gentle_script.sh > log_sha
+
+16 echo 'rm -f .sensible*' >> gentle_script.sh
+
+17 sha256sum gentle_script.sh > log_sha
+
+18 bash gentle_script.sh
+
+19 ls
+
+20 cat log_sha
+ 
