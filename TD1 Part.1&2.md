@@ -34,6 +34,16 @@ __Exercise 1__
 
 15  mkdir test
 
+16 cd home
+
+17 cd home
+
+18 cd ubuntu
+
+19 cd linux_ex1
+
+20 history > history5.md
+
 16  cd test
 
 17  pwd
