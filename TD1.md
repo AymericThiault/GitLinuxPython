@@ -1,7 +1,7 @@
 // here is the commands history of my linux envirronement ( I didn't manage to retrieve the outputs )
 
 
-Exercise 1
+__Exercise 1__
 
 1  cd /
 
@@ -40,7 +40,7 @@ Exercise 1
 18  history > history.md
 
 
-Exercise 2
+__Exercise 2__
 
 
 75  cd ubuntu
@@ -80,7 +80,7 @@ Exercise 2
 92  history > history2.md
 
 
-Exercice 3
+__Exercice 3__
 
 
 
