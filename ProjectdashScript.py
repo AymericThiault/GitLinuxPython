@@ -18,7 +18,7 @@ app = dash.Dash(__name__)
 
 # Define the layout
 app.layout = html.Div(children=[
-html.H1(children='Bitcoin Price Dashboard'),
+html.H1(children='Bitcoin Price Dashboard Aymeric Thiault IF4'),
 dcc.Graph(id='bitcoin-price-graph'),
 dcc.Interval(id='interval-component',interval=5*60*1000,n_intervals=0)])
 
